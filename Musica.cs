@@ -6,13 +6,12 @@
         Nome = nome;
     }
 
-
    public string Nome { get; }
    public Banda Artista { get; }
    public int Duracao { get; set; }
    public bool Disponivel { get; set; }
    public string DescricaoResumida => $"A musica {Nome} pertence a {Artista}"; // LAMBDA
-   public Genero Genero { get; set; }
+   // public Genero Genero { get; set; }
     // Para criar um Relacionamento de Classes, utilizamos a Classe como propriedade
     // da Nossa classe principal
 

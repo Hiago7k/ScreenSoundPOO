@@ -8,7 +8,6 @@
         Nome = nome;
     }
 
-
     public string Nome { get; }
     public int DuracaoTotal => musicas.Sum(m => m.Duracao); // pegar a duracao de todas as musicas
 
@@ -27,6 +26,5 @@
             Console.WriteLine($"Musica: {musica.Nome}");
         }
         Console.WriteLine($"\nEste album tem a duracao de {DuracaoTotal}");
-
     }
 }
